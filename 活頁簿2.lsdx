@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labelshopdocument version="1.2" tag="Oem" docid="99132c0e-1cf6-47fd-8c07-b834ef86aa1a">
+	<labelform version="1.1">
+		<paper name="未命名" code="0" brand="0" cate="0" syslabel="0" type="0" maxid="3">
+			<paper size="256" atuoset="0" width="10200" height="8000" orientation="1" color="255,255,255" leftoffect="0" topoffect="0"/>
+			<printer name="未安装" dev="" dpix="600" dpiy="600" lang="0" set="0" total="0" repeat="1" copy="1" startrecord="8" gcopy="1" amount="0" script="RnVuY3Rpb24gT25CZWdpblByaW50KFN0YXRlKQ0KJ1N0YXRlID0gMCA6IFZhcmlhYmxlIFVwZGF0ZURhdGENCidTdGF0ZSA9IDEgOiBMYWJlbCBQcmV2aWV3DQonU3RhdGUgPSAyIDogTGFiZWwgUHJpbnQNCkVuZCBGdW5jdGlvbg0KDQpGdW5jdGlvbiBPbkJlZ2luTGFiZWwoKQ0KRW5kIEZ1bmN0aW9uDQoNCkZ1bmN0aW9uIE9uRW5kTGFiZWwoKQ0KRW5kIEZ1bmN0aW9uDQoNCkZ1bmN0aW9uIE9uRW5kUHJpbnQoKQ0KRW5kIEZ1bmN0aW9u"/>
+		</paper>
+		<labellayer>
+			<labelformat name="未命名" uint="0">
+				<page left="100" top="0" right="100" bottom="0" viewrotate="0"/>
+				<label width="10000" height="8000" rows="1" cols="1" rowgap="300" colgap="300" rotation="0"/>
+				<form corner="1" hole="0" holesize="0" order="LTH"/>
+			</labelformat>
+			<labelobjects>
+				<drawobj type="drawpicture" id="2" name="" left="646" top="228" right="2143" bottom="4006" rotation="none" style="256" halign="0" valign="0" tpalign="0" tvalign="0">
+					<picture type="2" scale="1" keep="1" srcwidth="5556" srcheight="14021" change="0" onerr="3" dbscale="0" dbalign="0" file="C:\Users\jashliao\Desktop\20210610094646.jpg"/>
+				</drawobj>
+			</labelobjects>
+			<objvarlink link=":2,1"/>
+		</labellayer>
+		<variables>
+			<variable type="database" id="1" name="" shareid="" value="C:\Users\jashliao\Desktop\LabelShop_testData\20210610094646.jpg" data="QzpcVXNlcnNcamFzaGxpYW9cRGVza3RvcFxMYWJlbFNob3BfdGVzdERhdGFcMjAyMTA2MTAwOTQ2NDYuanBn" serialtype="0" serialstep="1" serialrepeat="1" serealreptype="0" serealreset="0" serealchars="" serealupper="" sereallower="" serealfield="" serealsrc="0" databasefield="2|單位" keyboardprompt="" datatimetype="0" datatimeoffect="0" datatimeformat="" usertc="0" rtctype="0" scripttext="" scriptpriv="RnVuY3Rpb24gT25HZXREYXRhKCkNCiAgICBPbkdldERhdGEgPSAiMTIzNDU2NzgiDQpFbmQgRnVuY3Rpb24=">
+				<limit filled="left" fillchar="0" cutout="right"/>
+				<cut/>
+			</variable>
+		</variables>
+	</labelform>
+	<database version="1.0">
+		<Connection type="1" table="" colout="" config="" file="C:\Users\jashliao\Desktop\LabelShop_testData\活頁簿2.txt" parameter="0|0|0|,|">
+			<fields>
+				<field id="0" name="工號"/>
+				<field id="1" name="姓名"/>
+				<field id="2" name="單位"/>
+			</fields>
+		</Connection>
+	</database>
+	<pictures/>
+</labelshopdocument>

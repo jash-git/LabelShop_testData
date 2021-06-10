@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labelshopdocument version="1.2" tag="Oem" docid="99132c0e-1cf6-47fd-8c07-b834ef86aa1a">
+	<labelform version="1.1">
+		<paper name="未命名" code="0" brand="0" cate="0" syslabel="0" type="0" maxid="7">
+			<paper size="256" atuoset="0" width="10200" height="8000" orientation="1" color="255,255,255" leftoffect="0" topoffect="0"/>
+			<printer name="未安装" dev="" dpix="600" dpiy="600" lang="0" set="0" total="0" repeat="1" copy="1" startrecord="1" gcopy="1" amount="0" script="RnVuY3Rpb24gT25CZWdpblByaW50KFN0YXRlKQ0KJ1N0YXRlID0gMCA6IFZhcmlhYmxlIFVwZGF0ZURhdGENCidTdGF0ZSA9IDEgOiBMYWJlbCBQcmV2aWV3DQonU3RhdGUgPSAyIDogTGFiZWwgUHJpbnQNCkVuZCBGdW5jdGlvbg0KDQpGdW5jdGlvbiBPbkJlZ2luTGFiZWwoKQ0KRW5kIEZ1bmN0aW9uDQoNCkZ1bmN0aW9uIE9uRW5kTGFiZWwoKQ0KRW5kIEZ1bmN0aW9uDQoNCkZ1bmN0aW9uIE9uRW5kUHJpbnQoKQ0KRW5kIEZ1bmN0aW9u"/>
+		</paper>
+		<labellayer>
+			<labelformat name="未命名" uint="0">
+				<page left="100" top="0" right="100" bottom="0" viewrotate="0"/>
+				<label width="10000" height="8000" rows="1" cols="1" rowgap="300" colgap="300" rotation="0"/>
+				<form corner="1" hole="0" holesize="0" order="LTH"/>
+			</labelformat>
+			<labelobjects>
+				<drawobj type="drawbarcode" id="4" name="" left="428" top="276" right="4060" bottom="1689" rotation="none" style="0" halign="0" valign="0" tpalign="0" tvalign="0">
+					<barcode btype="1" barwidth="1000" charextra="0" gapwidth="0" radio="300" wide="300" reduction="0" high="1000" readable="3" ralign="2" rcolgap="0" readx="0" ready="100" templet="0" templtestr=""/>
+					<font facename="Arial" style="0" charset="0" height="800" width="0" italic="0" steikeout="0" underline="0" family="0" color="0,0,0" bkcolor="255,255,255"/>
+					<baroption check="0" stchar="1" fullascii="0" c128codeset="0" c128ean="0" codabarschar="0" codabarechar="0" c25schar="0" c25echar="0" eanaddon="0" itf14bar="1" itf14barwidth="5" itf14barspace="10" itf14check="1" rsstype="0" rssseph="1" rsssegr="11" rsshold="0"/>
+					<baroption2 p417cols="0" p4172rows="0" p417ecc="0" p417t="0" qrecc="0" dmbw="0" mxsize="0" mxmode="0" hsecc="0" hsencrypt="0" hskey="" hsver="0" codepage="0"/>
+				</drawobj>
+				<drawobj type="drawbarcode" id="6" name="" left="524" top="2246" right="3991" bottom="5713" rotation="none" style="0" halign="0" valign="0" tpalign="0" tvalign="0">
+					<barcode btype="11" barwidth="6500" charextra="0" gapwidth="0" radio="300" wide="300" reduction="0" high="3467" readable="3" ralign="2" rcolgap="0" readx="0" ready="100" templet="0" templtestr=""/>
+					<font facename="Arial" style="0" charset="0" height="800" width="0" italic="0" steikeout="0" underline="0" family="0" color="0,0,0" bkcolor="255,255,255"/>
+					<baroption check="0" stchar="1" fullascii="0" c128codeset="0" c128ean="0" codabarschar="0" codabarechar="0" c25schar="0" c25echar="0" eanaddon="0" itf14bar="1" itf14barwidth="5" itf14barspace="10" itf14check="1" rsstype="0" rssseph="1" rsssegr="11" rsshold="0"/>
+					<baroption2 p417cols="0" p4172rows="0" p417ecc="0" p417t="0" qrecc="3" dmbw="0" mxsize="0" mxmode="0" hsecc="0" hsencrypt="0" hskey="" hsver="0" codepage="0"/>
+				</drawobj>
+			</labelobjects>
+			<objvarlink link=":4,3:6,5"/>
+		</labellayer>
+		<variables>
+			<variable type="database" id="3" name="" shareid="" value="SW00001" data="U1cwMDAwMQ==" serialtype="0" serialstep="1" serialrepeat="1" serealreptype="0" serealreset="0" serealchars="" serealupper="" sereallower="" serealfield="" serealsrc="0" databasefield="0|工號" keyboardprompt="" datatimetype="0" datatimeoffect="0" datatimeformat="" usertc="0" rtctype="0" scripttext="" scriptpriv="RnVuY3Rpb24gT25HZXREYXRhKCkNCiAgICBPbkdldERhdGEgPSAiMTIzNDU2NzgiDQpFbmQgRnVuY3Rpb24=">
+				<limit filled="left" fillchar="0" cutout="right"/>
+				<cut/>
+			</variable>
+			<variable type="database" id="5" name="" shareid="" value="SW00001" data="U1cwMDAwMQ==" serialtype="0" serialstep="1" serialrepeat="1" serealreptype="0" serealreset="0" serealchars="" serealupper="" sereallower="" serealfield="" serealsrc="0" databasefield="0|工號" keyboardprompt="" datatimetype="0" datatimeoffect="0" datatimeformat="" usertc="0" rtctype="0" scripttext="" scriptpriv="RnVuY3Rpb24gT25HZXREYXRhKCkNCiAgICBPbkdldERhdGEgPSAiMTIzNDU2NzgiDQpFbmQgRnVuY3Rpb24=">
+				<limit filled="left" fillchar="0" cutout="right"/>
+				<cut/>
+			</variable>
+		</variables>
+	</labelform>
+	<database version="1.0">
+		<Connection type="1" table="" colout="" config="" file="C:\Users\jashliao\Desktop\LabelShop_testData\活頁簿2.txt" parameter="0|0|0|,|">
+			<fields>
+				<field id="0" name="工號"/>
+				<field id="1" name="姓名"/>
+				<field id="2" name="單位"/>
+			</fields>
+		</Connection>
+	</database>
+	<pictures/>
+</labelshopdocument>
